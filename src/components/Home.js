@@ -3,11 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 const Home = () => (
               <div className="main-content home">
-                <h2>IEX API</h2>
-                <p>A couple of links to the stock exchange</p>      <br/>
-                <NavLink to="/charts/MSFT" className="link">Microsoft</NavLink>       <br/><br/><br/>
-                <NavLink to="/charts/aapl" className="link">Apple</NavLink>           <br/><br/><br/>
-                <NavLink to="/charts/TSLA" className="link">Tesla</NavLink>
+                <h2>Home Page</h2>
+                <p>Click on the feature tab</p>      <br/>
+                
               </div>
             );
 

@@ -10,8 +10,6 @@ import {
 //imported App components
 import Header from './Header';
 import Home from './Home';
-import About from './About';
-import Charts from './Charts';
 import NotFound from './NotFound';
 import Feature from './Feature.jsx';
 
@@ -40,8 +38,6 @@ class App extends Component {
                   <Header />
                   <Switch>
                       <Route exact path="/" component={Home} />
-                      <Route path="/about" component={About} />
-                      <Route path="/charts/:company" component={({match}) => <Charts match={match} />} />
                       <Route path="/feature" component={Feature} test={this.stats} />
                       <Route component={NotFound} />
                   </Switch>
